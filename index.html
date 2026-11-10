@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#101619">
 <link rel="icon" href="data:,">
-<title>DUSTLINE: RELAY BREAK</title>
+<title>DELTA FORCE: OPERATION SALTGLASS</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
 :root{--ink:#eef3e8;--muted:#a9b5ad;--lime:#d8f36a;--orange:#ff7959;--panel:rgba(13,20,21,.82);--line:rgba(235,245,225,.19)}
@@ -16,7 +16,7 @@
 <body>
 <div id="game"></div><div class="squall" id="squall"></div>
 <div id="hud">
-  <div class="topbar"><div class="brand">DUSTLINE<small>FIELD OPS // 07</small></div><div class="objective"><div class="obj-label">MISSION // RELAY BREAK</div><div class="obj-line" id="objective">Recover the 3 intel drives</div></div></div>
+  <div class="topbar"><div class="brand">DELTA FORCE<small>GLOBAL RESPONSE // 07</small></div><div class="objective"><div class="obj-label">OPERATION // SALTGLASS</div><div class="obj-line" id="objective">Recover 3 encrypted intel drives</div></div></div>
   <div class="storm" id="storm">ATMOSPHERIC / <b>CALM</b></div>
   <div class="radar" id="radar"><i class="radar-player"></i></div>
   <div class="crosshair"></div><div class="toast" id="toast"></div><div class="prompt" id="prompt"></div>
@@ -25,7 +25,7 @@
   <div class="desktop-hint">WASD MOVE&nbsp; · &nbsp;MOUSE AIM&nbsp; · &nbsp;CLICK FIRE&nbsp; · &nbsp;Q BEACON&nbsp; · &nbsp;E INTERACT</div>
   <div class="mobile"><div class="stick" id="stick"><div class="knob" id="knob"></div></div><div class="lookzone" id="lookzone"></div><button class="action fire" id="fireBtn">FIRE</button><button class="action beacon" id="beaconBtn">ECHO<br>3</button><button class="action reload" id="reloadBtn">R</button><button class="action interact" id="interactBtn">USE</button></div>
 </div>
-<div class="overlay" id="title"><div class="card"><div class="eyebrow">NORTH AFRICA // 02:17 LOCAL</div><h1>DUSTLINE:<br><em>RELAY BREAK</em></h1><p>A remote listening post has gone dark beneath the Saltglass Basin. Push through the perimeter, recover three data drives, then break the uplink before the patrol locks down the site.</p><div class="brief"><div><b>NEW MECHANIC</b>Echo beacon decoy</div><div><b>FRESH CHALLENGE</b>Blind sand squalls</div><div><b>OPERATION</b>Solo infiltration</div></div><button class="start" id="startBtn">DEPLOY TO SALTGLASS&nbsp; ↗</button><span class="subhint">Touch controls on mobile · WASD / mouse / click on desktop</span></div></div>
+<div class="overlay" id="title"><div class="card"><div class="eyebrow">OPERATION SALTGLASS // NORTH AFRICA // 02:17 LOCAL</div><h1>DELTA<br><em>FORCE</em></h1><p>A hostile militia has seized a listening post beneath the Saltglass Basin. Infiltrate the perimeter, recover three encrypted intel drives, then shut down the uplink before reinforcements arrive.</p><div class="brief"><div><b>MISSION</b>Recover the intel</div><div><b>THREAT</b>Hostile patrols</div><div><b>INSERTION</b>Solo operator</div></div><button class="start" id="startBtn">DEPLOY DELTA FORCE&nbsp; ↗</button><span class="subhint">Touch controls on mobile · WASD / mouse / click on desktop</span></div></div>
 <div class="result" id="result"><div class="card"><div class="eyebrow" id="resultEyebrow">MISSION COMPLETE</div><h2 id="resultTitle">UPLINK SILENCED</h2><p id="resultCopy">The relay is dark. The basin is yours—for now.</p><button class="start" id="againBtn">RUN IT AGAIN&nbsp; ↗</button></div></div>
 <script type="module">
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';

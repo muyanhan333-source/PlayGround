@@ -17,9 +17,9 @@
 - 🌍 [Create with OMGithub](https://go.ondev.store/).
 <!-- omgithub:readme:end -->
 
-## Dustline: Relay Break
+## Delta Force: Operation Saltglass
 
-A mobile-friendly 3D first-person extraction mission set at the Saltglass Basin relay station. Serve the mission by collecting three intel drives and reaching the uplink while surviving patrols and periodic glass squalls.
+A mobile-friendly 3D first-person tactical shooter. Infiltrate the Saltglass Basin, recover three encrypted intel drives, and disable the hostile uplink while surviving patrols and periodic glass squalls.
 
 ### Play
 
