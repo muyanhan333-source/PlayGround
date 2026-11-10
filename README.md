@@ -16,3 +16,17 @@
 - 👤 [Explore the creator's projects](https://go.ondev.store/muyanhan333-source).
 - 🌍 [Create with OMGithub](https://go.ondev.store/).
 <!-- omgithub:readme:end -->
+
+## Dustline: Relay Break
+
+A mobile-friendly 3D first-person extraction mission set at the Saltglass Basin relay station. Serve the mission by collecting three intel drives and reaching the uplink while surviving patrols and periodic glass squalls.
+
+### Play
+
+Open `index.html` in a modern browser with internet access (Three.js is loaded from jsDelivr), or serve the project locally with `python3 -m http.server 3002` and visit `http://localhost:3002`.
+
+- **Desktop:** WASD to move, mouse to aim, click to fire, **R** to reload, **Q** to throw an Echo Beacon, **E** to interact.
+- **Phone/tablet:** left joystick to move, drag the right side to aim, and use the on-screen Fire, Echo, Reload, and Use buttons.
+
+The Echo Beacon is a limited-use decoy that draws nearby hostiles away from you. Glass squalls periodically cut visibility, adding pressure while you move between objectives.
+
